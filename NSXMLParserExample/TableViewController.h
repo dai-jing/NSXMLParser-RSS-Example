@@ -1,5 +1,5 @@
 //
-//  ViewController.h
+//  TableViewController.h
 //  NSXMLParserExample
 //
 //  Created by Kobe Dai on 11/11/12.
@@ -7,16 +7,15 @@
 //
 
 #import <UIKit/UIKit.h>
-#import "TableViewController.h"
+#import "WebViewController.h"
 
-@interface ViewController : UIViewController <NSXMLParserDelegate, NSURLConnectionDataDelegate>
+@interface TableViewController : UIViewController <UITableViewDataSource, UITableViewDelegate>
 
-@property (strong, nonatomic) TableViewController *tableViewController;
+@property (strong, nonatomic) IBOutlet UITableView *tableView;
+@property (strong, nonatomic) WebViewController *webViewController;
 
 @property (retain, nonatomic) NSMutableArray *linksArray;
 @property (retain, nonatomic) NSMutableArray *titlesArray;
 @property (retain, nonatomic) NSMutableArray *datesArray;
-
-- (IBAction)loadTableView :(id)sender;
 
 @end

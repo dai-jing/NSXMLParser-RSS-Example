@@ -18,6 +18,14 @@
 		CDFDA440164F76B5006CE919 /* Default-568h@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = CDFDA43F164F76B5006CE919 /* Default-568h@2x.png */; };
 		CDFDA443164F76B5006CE919 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = CDFDA442164F76B5006CE919 /* ViewController.m */; };
 		CDFDA446164F76B5006CE919 /* ViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = CDFDA444164F76B5006CE919 /* ViewController.xib */; };
+		CDFDA452164F7742006CE919 /* navBar.png in Resources */ = {isa = PBXBuildFile; fileRef = CDFDA450164F7742006CE919 /* navBar.png */; };
+		CDFDA453164F7742006CE919 /* navBar@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = CDFDA451164F7742006CE919 /* navBar@2x.png */; };
+		CDFDA45F164F7B75006CE919 /* TableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = CDFDA45D164F7B75006CE919 /* TableViewController.m */; };
+		CDFDA460164F7B75006CE919 /* TableViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = CDFDA45E164F7B75006CE919 /* TableViewController.xib */; };
+		CDFDA467164F7CC1006CE919 /* ipadBGPattern.png in Resources */ = {isa = PBXBuildFile; fileRef = CDFDA465164F7CC0006CE919 /* ipadBGPattern.png */; };
+		CDFDA468164F7CC1006CE919 /* ipadBGPattern@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = CDFDA466164F7CC1006CE919 /* ipadBGPattern@2x.png */; };
+		CDFDA470164F82F2006CE919 /* WebViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = CDFDA46E164F82F2006CE919 /* WebViewController.m */; };
+		CDFDA471164F82F2006CE919 /* WebViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = CDFDA46F164F82F2006CE919 /* WebViewController.xib */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -37,6 +45,16 @@
 		CDFDA441164F76B5006CE919 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
 		CDFDA442164F76B5006CE919 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
 		CDFDA445164F76B5006CE919 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/ViewController.xib; sourceTree = "<group>"; };
+		CDFDA450164F7742006CE919 /* navBar.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = navBar.png; sourceTree = "<group>"; };
+		CDFDA451164F7742006CE919 /* navBar@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "navBar@2x.png"; sourceTree = "<group>"; };
+		CDFDA45C164F7B75006CE919 /* TableViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TableViewController.h; sourceTree = "<group>"; };
+		CDFDA45D164F7B75006CE919 /* TableViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TableViewController.m; sourceTree = "<group>"; };
+		CDFDA45E164F7B75006CE919 /* TableViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = TableViewController.xib; sourceTree = "<group>"; };
+		CDFDA465164F7CC0006CE919 /* ipadBGPattern.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = ipadBGPattern.png; sourceTree = "<group>"; };
+		CDFDA466164F7CC1006CE919 /* ipadBGPattern@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "ipadBGPattern@2x.png"; sourceTree = "<group>"; };
+		CDFDA46D164F82F2006CE919 /* WebViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WebViewController.h; sourceTree = "<group>"; };
+		CDFDA46E164F82F2006CE919 /* WebViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WebViewController.m; sourceTree = "<group>"; };
+		CDFDA46F164F82F2006CE919 /* WebViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = WebViewController.xib; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -88,6 +106,16 @@
 				CDFDA441164F76B5006CE919 /* ViewController.h */,
 				CDFDA442164F76B5006CE919 /* ViewController.m */,
 				CDFDA444164F76B5006CE919 /* ViewController.xib */,
+				CDFDA45C164F7B75006CE919 /* TableViewController.h */,
+				CDFDA45D164F7B75006CE919 /* TableViewController.m */,
+				CDFDA45E164F7B75006CE919 /* TableViewController.xib */,
+				CDFDA46D164F82F2006CE919 /* WebViewController.h */,
+				CDFDA46E164F82F2006CE919 /* WebViewController.m */,
+				CDFDA46F164F82F2006CE919 /* WebViewController.xib */,
+				CDFDA450164F7742006CE919 /* navBar.png */,
+				CDFDA451164F7742006CE919 /* navBar@2x.png */,
+				CDFDA465164F7CC0006CE919 /* ipadBGPattern.png */,
+				CDFDA466164F7CC1006CE919 /* ipadBGPattern@2x.png */,
 				CDFDA430164F76B5006CE919 /* Supporting Files */,
 			);
 			path = NSXMLParserExample;
@@ -163,6 +191,12 @@
 				CDFDA43E164F76B5006CE919 /* Default@2x.png in Resources */,
 				CDFDA440164F76B5006CE919 /* Default-568h@2x.png in Resources */,
 				CDFDA446164F76B5006CE919 /* ViewController.xib in Resources */,
+				CDFDA452164F7742006CE919 /* navBar.png in Resources */,
+				CDFDA453164F7742006CE919 /* navBar@2x.png in Resources */,
+				CDFDA460164F7B75006CE919 /* TableViewController.xib in Resources */,
+				CDFDA467164F7CC1006CE919 /* ipadBGPattern.png in Resources */,
+				CDFDA468164F7CC1006CE919 /* ipadBGPattern@2x.png in Resources */,
+				CDFDA471164F82F2006CE919 /* WebViewController.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -176,6 +210,8 @@
 				CDFDA436164F76B5006CE919 /* main.m in Sources */,
 				CDFDA43A164F76B5006CE919 /* AppDelegate.m in Sources */,
 				CDFDA443164F76B5006CE919 /* ViewController.m in Sources */,
+				CDFDA45F164F7B75006CE919 /* TableViewController.m in Sources */,
+				CDFDA470164F82F2006CE919 /* WebViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
